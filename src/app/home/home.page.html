@@ -1,8 +1,12 @@
 <ion-header [translucent]="true">
+  
   <ion-toolbar>
+    
     <ion-title>
-      Blank
+      
     </ion-title>
+    
+    <img src="../../assets/icon/favicon.png" class="item item-trns" width="60px" height="60px"> 
   </ion-toolbar>
 </ion-header>
 
@@ -13,8 +17,40 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button color="primary">Enviar invitacion</ion-button>
+
+  <ion-list>
+  <ion-grid>
+    <ion-row class="header-row">
+      <ion-col>
+        <div>Id</div>
+      </ion-col>
+      <ion-col>
+        <div><strong>Nombre</strong></div>
+      </ion-col>
+      <ion-col>
+        <div><strong>Correo</strong></div>
+      </ion-col>
+      <ion-col>
+        <div>check</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="data-row">
+      <ion-col>
+        <div>Id</div>
+      </ion-col>
+      <ion-col>
+        <div><strong>Nombre</strong></div>
+      </ion-col>
+      <ion-col>
+        <div><strong>Correo</strong></div>
+      </ion-col>
+      <ion-col>
+        <div>check</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  </ion-list>
 </ion-content>

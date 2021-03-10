@@ -25,3 +25,19 @@
 #container a {
   text-decoration: none;
 }
+
+ion-toolbar {
+  --background: #2B2F3A;
+}
+.item.item-trns{
+  border-color: rgba(0, 0, 0, 0);
+  background-color:rgba(0,0,0,0);
+}
+.header-row{
+  font-weight: 500;
+  border-bottom: 2px solid #000;
+}
+.data-row{
+  
+  border-bottom: 1px solid #000;
+}
